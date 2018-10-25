@@ -42,4 +42,8 @@ puclic class SuperArray{
     data[index] = str;
   }
 
+  private void resize() {
+    
+  }
+
 }
