@@ -32,4 +32,14 @@ puclic class SuperArray{
     return out;
   }
 
+  public String get(int index){
+    if (index < 0 || index >= size()) return null;
+    return data[index];
+  }
+
+  public String set(int index, String str){
+    if (index < 0 || index >= size()) return null;
+    data[index] = str;
+  }
+
 }
